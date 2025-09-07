@@ -119,9 +119,6 @@ const Efficiency = () => {
             </div>
           ))}
         </div>
-
-
-        </div>
       </div>
     </section>
   );
