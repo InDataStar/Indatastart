@@ -31,7 +31,7 @@ const Header = () => {
             <div className="bg-gradient-to-r from-blue-600 to-teal-600 p-2 rounded-lg">
               <Smartphone className="h-6 w-6 text-white" />
             </div>
-            <span className="text-xl font-bold text-gray-900">MobileDev</span>
+            <span className="text-xl font-bold text-gray-900">InDataStart</span>
           </div>
 
           <nav className="hidden md:flex items-center space-x-8">
