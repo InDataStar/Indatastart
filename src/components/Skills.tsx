@@ -104,7 +104,17 @@ const Skills = () => {
         </div>
 
         {/* Key Metrics */}
-        <div className="mt-20 bg-gradient-to-r from-blue-600 to-teal-600 rounded-3xl p-8 text-white">
+       
+      </div>
+    </section>
+  );
+};
+
+export default Skills;
+
+
+/**
+ <div className="mt-20 bg-gradient-to-r from-blue-600 to-teal-600 rounded-3xl p-8 text-white">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
             <div>
               <div className="text-4xl font-bold mb-2">50+</div>
@@ -124,9 +134,5 @@ const Skills = () => {
             </div>
           </div>
         </div>
-      </div>
-    </section>
-  );
-};
 
-export default Skills;
+*/
