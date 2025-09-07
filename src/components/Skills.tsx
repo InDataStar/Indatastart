@@ -17,8 +17,8 @@ const Skills = () => {
       icon: <Smartphone className="h-8 w-8" />,
       skills: [
        // { name: 'iOS Development', level: 95, color: 'bg-blue-500' },
-        { name: 'Android Development', level: 90, color: 'bg-green-500' },
         { name: 'React Native', level: 92, color: 'bg-cyan-500' },
+        { name: 'Android Development', level: 90, color: 'bg-green-500' },
        // { name: 'Flutter', level: 88, color: 'bg-blue-400' }
       ]
     },
