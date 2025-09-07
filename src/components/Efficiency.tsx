@@ -130,8 +130,7 @@ export default Efficiency;
 
 /**
 
-        {/* Performance Stats */}
-        {/* <div className="mt-16 bg-gradient-to-r from-gray-900 to-gray-800 rounded-3xl p-8 text-white">
+        {/* Performance Stats   <div className="mt-16 bg-gradient-to-r from-gray-900 to-gray-800 rounded-3xl p-8 text-white">
           <div className="text-center mb-8">
             <h3 className="text-3xl font-bold mb-4">Performance Impact</h3>
             <p className="text-gray-300">Real metrics from production applications</p>
@@ -161,11 +160,11 @@ export default Efficiency;
               <div className="text-3xl font-bold mb-2">35%</div>
               <div className="text-gray-300">Faster Execution</div>
             </div>
-          </div> */}
+          //</div> }
 /**
 
-        {/* Performance Metrics */}
-        {/* <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-16">
+        {/* Performance Metrics  
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-16">
           {metrics.map((metric, index) => (
             <div 
               key={metric.title}
@@ -184,6 +183,4 @@ export default Efficiency;
               </div>
             </div>
           ))}
-        </div> */}
-
-*/
+        </div> */
