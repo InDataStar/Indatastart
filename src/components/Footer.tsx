@@ -12,7 +12,7 @@ const Footer = () => {
             <div className="bg-gradient-to-r from-blue-600 to-teal-600 p-2 rounded-lg">
               <Smartphone className="h-6 w-6 text-white" />
             </div>
-            <span className="text-2xl font-bold">MobileDev</span>
+            <span className="text-2xl font-bold">InDataStart</span>
           </div>
           
           <p className="text-gray-400 mb-6 max-w-2xl mx-auto">
@@ -21,7 +21,7 @@ const Footer = () => {
           </p>
           
           <div className="flex items-center justify-center text-sm text-gray-400">
-            <span>© {currentYear} MobileDev. Made with</span>
+            <span>© {currentYear} InDataStart. Made with</span>
             <Heart className="h-4 w-4 mx-2 text-red-500" />
             <span>for mobile innovation</span>
           </div>
