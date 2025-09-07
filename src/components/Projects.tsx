@@ -6,7 +6,7 @@ const Projects = () => {
     {
       title: 'SeeGP',
       description: 'A sustainability app helping users track their carbon footprint with real-time analytics and gamification features.',
-      image: 'https://images.pexels.com/photos/3531895/pexels-photo-3531895.jpeg?auto=compress&cs=tinysrgb&w=600',
+      image: 'https://imgur.com/wVDO6NG.jpeg?auto=compress&cs=tinysrgb&w=600',
       technologies: ['React Native', 'TypeScript', 'Firebase', 'Redux'],
       //To do dont use this
       // metrics: {
