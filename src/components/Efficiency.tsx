@@ -98,28 +98,6 @@ const Efficiency = () => {
           </p>
         </div>
 
-        {/* Performance Metrics */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-16">
-          {metrics.map((metric, index) => (
-            <div 
-              key={metric.title}
-              className="group relative bg-white rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-500 overflow-hidden transform hover:-translate-y-2"
-            >
-              <div className={`absolute inset-0 bg-gradient-to-br ${metric.color} opacity-0 group-hover:opacity-10 transition-opacity duration-300`}></div>
-              
-              <div className="relative p-8 text-center">
-                <div className={`inline-flex items-center justify-center w-16 h-16 bg-gradient-to-br ${metric.color} rounded-2xl text-white mb-4 group-hover:scale-110 transition-transform duration-300`}>
-                  {metric.icon}
-                </div>
-                
-                <h3 className="text-lg font-semibold text-gray-900 mb-2">{metric.title}</h3>
-                <div className="text-3xl font-bold text-gray-900 mb-2">{metric.value}</div>
-                <p className="text-sm text-gray-600">{metric.description}</p>
-              </div>
-            </div>
-          ))}
-        </div>
-
         {/* Efficiency Techniques */}
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
           {techniques.map((technique, index) => (
@@ -142,8 +120,21 @@ const Efficiency = () => {
           ))}
         </div>
 
+
+        </div>
+      </div>
+    </section>
+  );
+};
+
+export default Efficiency;
+
+
+
+/**
+
         {/* Performance Stats */}
-        <div className="mt-16 bg-gradient-to-r from-gray-900 to-gray-800 rounded-3xl p-8 text-white">
+        {/* <div className="mt-16 bg-gradient-to-r from-gray-900 to-gray-800 rounded-3xl p-8 text-white">
           <div className="text-center mb-8">
             <h3 className="text-3xl font-bold mb-4">Performance Impact</h3>
             <p className="text-gray-300">Real metrics from production applications</p>
@@ -173,11 +164,29 @@ const Efficiency = () => {
               <div className="text-3xl font-bold mb-2">35%</div>
               <div className="text-gray-300">Faster Execution</div>
             </div>
-          </div>
-        </div>
-      </div>
-    </section>
-  );
-};
+          </div> */}
+/**
 
-export default Efficiency;
+        {/* Performance Metrics */}
+        {/* <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-16">
+          {metrics.map((metric, index) => (
+            <div 
+              key={metric.title}
+              className="group relative bg-white rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-500 overflow-hidden transform hover:-translate-y-2"
+            >
+              <div className={`absolute inset-0 bg-gradient-to-br ${metric.color} opacity-0 group-hover:opacity-10 transition-opacity duration-300`}></div>
+              
+              <div className="relative p-8 text-center">
+                <div className={`inline-flex items-center justify-center w-16 h-16 bg-gradient-to-br ${metric.color} rounded-2xl text-white mb-4 group-hover:scale-110 transition-transform duration-300`}>
+                  {metric.icon}
+                </div>
+                
+                <h3 className="text-lg font-semibold text-gray-900 mb-2">{metric.title}</h3>
+                <div className="text-3xl font-bold text-gray-900 mb-2">{metric.value}</div>
+                <p className="text-sm text-gray-600">{metric.description}</p>
+              </div>
+            </div>
+          ))}
+        </div> */}
+
+*/
