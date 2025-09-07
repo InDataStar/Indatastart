@@ -26,8 +26,8 @@ const Contact = () => {
     {
       icon: <Mail className="h-6 w-6" />,
       label: 'Email',
-      value: 'hello@mobiledev.com',
-      link: 'mailto:hello@mobiledev.com'
+      value: 'crawfordlp1@gmail.com',
+      link: 'mailto:crawfordlp1@gmail.co'
     },
     {
       icon: <Phone className="h-6 w-6" />,
@@ -38,7 +38,7 @@ const Contact = () => {
     {
       icon: <MapPin className="h-6 w-6" />,
       label: 'Location',
-      value: 'San Francisco, CA',
+      value: 'Auckland, NZ',
       link: '#'
     }
   ];
