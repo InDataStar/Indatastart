@@ -8,14 +8,15 @@ const Projects = () => {
       description: 'A sustainability app helping users track their carbon footprint with real-time analytics and gamification features.',
       image: 'https://images.pexels.com/photos/3531895/pexels-photo-3531895.jpeg?auto=compress&cs=tinysrgb&w=600',
       technologies: ['React Native', 'TypeScript', 'Firebase', 'Redux'],
-      metrics: {
-        downloads: '100K+',
-        rating: '4.8',
-        users: '50K+'
-      },
+      //To do dont use this
+      // metrics: {
+      //   downloads: '100K+',
+      //   rating: '4.8',
+      //   users: '50K+'
+      // },
       links: {
-        demo: '#',
-        github: '#',
+        demo: '',
+        github: '',
         store: '#'
       },
       featured: true
