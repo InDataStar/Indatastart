@@ -66,7 +66,69 @@ const Contact = () => {
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
           {/* Contact Form */}
-          <div className="bg-white rounded-3xl shadow-xl p-8">
+          
+
+          {/* Contact Information */}
+          <div className="space-y-8">
+            <div className="bg-white rounded-3xl shadow-xl p-8">
+              <h3 className="text-2xl font-bold text-gray-900 mb-8">Get in Touch</h3>
+              
+              <div className="space-y-6">
+                {contactInfo.map((info, index) => (
+                  <a 
+                    key={index}
+                    href={info.link}
+                    className="flex items-center p-4 bg-gradient-to-r from-gray-50 to-gray-100 rounded-2xl hover:from-blue-50 hover:to-teal-50 transition-all duration-300 group"
+                  >
+                    <div className="bg-gradient-to-r from-blue-600 to-teal-600 p-3 rounded-xl text-white mr-4 group-hover:scale-110 transition-transform duration-300">
+                      {info.icon}
+                    </div>
+                    <div>
+                      <div className="text-sm font-medium text-gray-500">{info.label}</div>
+                      <div className="text-lg font-semibold text-gray-900">{info.value}</div>
+                    </div>
+                  </a>
+                ))}
+              </div>
+            </div>
+
+            <div className="bg-gradient-to-r from-blue-600 to-teal-600 rounded-3xl p-8 text-white">
+              <h3 className="text-2xl font-bold mb-6">Connect on Social</h3>
+              <div className="flex space-x-4">
+                {socialLinks.map((social, index) => (
+                  <a 
+                    key={index}
+                    href={social.href}
+                    className="bg-white/20 p-3 rounded-xl hover:bg-white/30 transition-all duration-300 transform hover:scale-110"
+                    aria-label={social.label}
+                  >
+                    {social.icon}
+                  </a>
+                ))}
+              </div>
+              
+              <div className="mt-8">
+                <h4 className="text-lg font-semibold mb-3">Available for:</h4>
+                <ul className="space-y-2 text-blue-100">
+                  <li>• Mobile app development</li>
+                  <li>• Technical consulting</li>
+                  <li>• Code reviews & optimization</li>
+                  <li>• Team mentoring</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+};
+
+export default Contact;
+
+
+/**
+<div className="bg-white rounded-3xl shadow-xl p-8">
             <h3 className="text-2xl font-bold text-gray-900 mb-8">Send a Message</h3>
             
             <form onSubmit={handleSubmit} className="space-y-6">
@@ -145,61 +207,4 @@ const Contact = () => {
               </button>
             </form>
           </div>
-
-          {/* Contact Information */}
-          <div className="space-y-8">
-            <div className="bg-white rounded-3xl shadow-xl p-8">
-              <h3 className="text-2xl font-bold text-gray-900 mb-8">Get in Touch</h3>
-              
-              <div className="space-y-6">
-                {contactInfo.map((info, index) => (
-                  <a 
-                    key={index}
-                    href={info.link}
-                    className="flex items-center p-4 bg-gradient-to-r from-gray-50 to-gray-100 rounded-2xl hover:from-blue-50 hover:to-teal-50 transition-all duration-300 group"
-                  >
-                    <div className="bg-gradient-to-r from-blue-600 to-teal-600 p-3 rounded-xl text-white mr-4 group-hover:scale-110 transition-transform duration-300">
-                      {info.icon}
-                    </div>
-                    <div>
-                      <div className="text-sm font-medium text-gray-500">{info.label}</div>
-                      <div className="text-lg font-semibold text-gray-900">{info.value}</div>
-                    </div>
-                  </a>
-                ))}
-              </div>
-            </div>
-
-            <div className="bg-gradient-to-r from-blue-600 to-teal-600 rounded-3xl p-8 text-white">
-              <h3 className="text-2xl font-bold mb-6">Connect on Social</h3>
-              <div className="flex space-x-4">
-                {socialLinks.map((social, index) => (
-                  <a 
-                    key={index}
-                    href={social.href}
-                    className="bg-white/20 p-3 rounded-xl hover:bg-white/30 transition-all duration-300 transform hover:scale-110"
-                    aria-label={social.label}
-                  >
-                    {social.icon}
-                  </a>
-                ))}
-              </div>
-              
-              <div className="mt-8">
-                <h4 className="text-lg font-semibold mb-3">Available for:</h4>
-                <ul className="space-y-2 text-blue-100">
-                  <li>• Mobile app development</li>
-                  <li>• Technical consulting</li>
-                  <li>• Code reviews & optimization</li>
-                  <li>• Team mentoring</li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-  );
-};
-
-export default Contact;
+*/
