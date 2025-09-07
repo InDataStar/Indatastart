@@ -1,6 +1,6 @@
 import React from 'react';
 import { Smartphone, Heart } from 'lucide-react';
-import {TITLE} from '../../Constants/index
+import {TITLE} from '../Constants/index';
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
