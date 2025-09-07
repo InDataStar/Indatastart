@@ -5,10 +5,10 @@ const Hero = () => {
   const [currentRole, setCurrentRole] = useState(0);
   const roles = [
     'Mobile Developer',
-    'iOS Specialist',
+    //'iOS Specialist',
     'Android Expert',
     'React Native Pro',
-    'Flutter Developer'
+    //'Flutter Developer'
   ];
 
   useEffect(() => {
