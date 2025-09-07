@@ -29,12 +29,13 @@ const Contact = () => {
       value: 'crawfordlp1@gmail.com',
       link: 'mailto:crawfordlp1@gmail.co'
     },
-    {
-      icon: <Phone className="h-6 w-6" />,
-      label: 'Phone',
-      value: '+1 (555) 123-4567',
-      link: 'tel:+15551234567'
-    },
+    //To do add in company No
+    // {
+    //   icon: <Phone className="h-6 w-6" />,
+    //   label: 'Phone',
+    //   value: '+1 (555) 123-4567',
+    //   link: 'tel:+15551234567'
+    // },
     {
       icon: <MapPin className="h-6 w-6" />,
       label: 'Location',
@@ -44,9 +45,10 @@ const Contact = () => {
   ];
 
   const socialLinks = [
-    { icon: <Github className="h-6 w-6" />, href: 'https://github.com', label: 'GitHub' },
+    { icon: <Github className="h-6 w-6" />, href: 'https://github.com/InDataStar', label: 'GitHub' },
     { icon: <Linkedin className="h-6 w-6" />, href: 'https://linkedin.com', label: 'LinkedIn' },
-    { icon: <Twitter className="h-6 w-6" />, href: 'https://twitter.com', label: 'Twitter' }
+    // Add in insta + twitter + tik tok.
+   // { icon: <Twitter className="h-6 w-6" />, href: 'https://twitter.com', label: 'Twitter' }
   ];
 
   return (
