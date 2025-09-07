@@ -26,7 +26,7 @@ const Skills = () => {
       title: 'Programming Languages',
       icon: <Code2 className="h-8 w-8" />,
       skills: [
-        //{ name: 'Swift', level: 94, color: 'bg-orange-500' },
+        { name: 'Java', level: 94, color: 'bg-orange-500' },
         { name: 'Kotlin', level: 89, color: 'bg-purple-500' },
         { name: 'JavaScript/TypeScript', level: 93, color: 'bg-yellow-500' },
        // { name: 'Dart', level: 87, color: 'bg-teal-500' }
