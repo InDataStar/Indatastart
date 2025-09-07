@@ -103,7 +103,6 @@ const Skills = () => {
           ))}
         </div>
 
-        {/* Key Metrics */}
        
       </div>
     </section>
