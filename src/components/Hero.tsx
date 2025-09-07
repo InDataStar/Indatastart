@@ -61,10 +61,10 @@ const Hero = () => {
           </div>
 
           <div className="flex items-center justify-center space-x-6">
-            <a href="https://github.com" className="group p-3 bg-white rounded-full shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-110">
+            <a href="https://github.com/InDataStar" className="group p-3 bg-white rounded-full shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-110">
               <Github className="h-6 w-6 text-gray-700 group-hover:text-blue-600" />
             </a>
-            <a href="https://linkedin.com" className="group p-3 bg-white rounded-full shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-110">
+            <a href="https://www.linkedin.com/in/lachlan-crawford-8a36b8140/" className="group p-3 bg-white rounded-full shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-110">
               <Linkedin className="h-6 w-6 text-gray-700 group-hover:text-blue-600" />
             </a>
           </div>
