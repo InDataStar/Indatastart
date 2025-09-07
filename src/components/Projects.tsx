@@ -8,12 +8,11 @@ const Projects = () => {
       description: 'A sustainability app helping users track their carbon footprint with real-time analytics and gamification features.',
       image: 'https://imgur.com/wVDO6NG.jpeg?auto=compress&cs=tinysrgb&w=600',
       technologies: ['React Native', 'TypeScript', 'Firebase', 'Redux'],
-      //To do dont use this
-      // metrics: {
-      //   downloads: '100K+',
-      //   rating: '4.8',
-      //   users: '50K+'
-      // },
+      metrics: {
+        downloads: '5K+',
+        rating: '4.7',
+        users: '2K+'
+      },
       links: {
         demo: 'https://snack.expo.dev/@njyyjn/seegp2',
         github: 'https://github.com/InDataStar/SeeGP', 
