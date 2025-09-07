@@ -15,9 +15,8 @@ const Projects = () => {
       //   users: '50K+'
       // },
       links: {
-        demo: '',
-        github: '',
-        store: '#'
+        demo: 'https://snack.expo.dev/@njyyjn/seegp2',
+        github: 'https://github.com/InDataStar/SeeGP', 
       },
       featured: true
     },
