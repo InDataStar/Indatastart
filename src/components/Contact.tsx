@@ -46,7 +46,7 @@ const Contact = () => {
 
   const socialLinks = [
     { icon: <Github className="h-6 w-6" />, href: 'https://github.com/InDataStar', label: 'GitHub' },
-    { icon: <Linkedin className="h-6 w-6" />, href: 'https://linkedin.com', label: 'LinkedIn' },
+    { icon: <Linkedin className="h-6 w-6" />, href: 'https://www.linkedin.com/in/lachlan-crawford-8a36b8140/', label: 'LinkedIn' },
     // Add in insta + twitter + tik tok.
    // { icon: <Twitter className="h-6 w-6" />, href: 'https://twitter.com', label: 'Twitter' }
   ];
