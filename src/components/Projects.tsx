@@ -4,7 +4,7 @@ import { ExternalLink, Github, Play, Users, Star, Download } from 'lucide-react'
 const Projects = () => {
   const projects = [
     {
-      title: 'EcoTracker Mobile',
+      title: 'SeeGP',
       description: 'A sustainability app helping users track their carbon footprint with real-time analytics and gamification features.',
       image: 'https://images.pexels.com/photos/3531895/pexels-photo-3531895.jpeg?auto=compress&cs=tinysrgb&w=600',
       technologies: ['React Native', 'TypeScript', 'Firebase', 'Redux'],
@@ -20,57 +20,58 @@ const Projects = () => {
       },
       featured: true
     },
-    {
-      title: 'FinanceFlow iOS',
-      description: 'Personal finance management app with AI-powered spending insights and investment recommendations.',
-      image: 'https://images.pexels.com/photos/4475523/pexels-photo-4475523.jpeg?auto=compress&cs=tinysrgb&w=600',
-      technologies: ['Swift', 'SwiftUI', 'Core Data', 'WidgetKit'],
-      metrics: {
-        downloads: '75K+',
-        rating: '4.9',
-        users: '40K+'
-      },
-      links: {
-        demo: '#',
-        github: '#',
-        store: '#'
-      },
-      featured: true
-    },
-    {
-      title: 'WorkoutPro Android',
-      description: 'Comprehensive fitness app with workout plans, progress tracking, and social features.',
-      image: 'https://images.pexels.com/photos/4474052/pexels-photo-4474052.jpeg?auto=compress&cs=tinysrgb&w=600',
-      technologies: ['Kotlin', 'Jetpack Compose', 'Room', 'MVVM'],
-      metrics: {
-        downloads: '200K+',
-        rating: '4.7',
-        users: '120K+'
-      },
-      links: {
-        demo: '#',
-        github: '#',
-        store: '#'
-      },
-      featured: false
-    },
-    {
-      title: 'ShopSmart Flutter',
-      description: 'E-commerce platform with AR product visualization and personalized recommendations.',
-      image: 'https://images.pexels.com/photos/4968391/pexels-photo-4968391.jpeg?auto=compress&cs=tinysrgb&w=600',
-      technologies: ['Flutter', 'Dart', 'BLoC', 'AR Core'],
-      metrics: {
-        downloads: '150K+',
-        rating: '4.6',
-        users: '80K+'
-      },
-      links: {
-        demo: '#',
-        github: '#',
-        store: '#'
-      },
-      featured: false
-    }
+    //To do either edit this or incorp firebase into it 
+    // {
+    //   title: 'FinanceFlow iOS',
+    //   description: 'Personal finance management app with AI-powered spending insights and investment recommendations.',
+    //   image: 'https://images.pexels.com/photos/4475523/pexels-photo-4475523.jpeg?auto=compress&cs=tinysrgb&w=600',
+    //   technologies: ['Swift', 'SwiftUI', 'Core Data', 'WidgetKit'],
+    //   metrics: {
+    //     downloads: '75K+',
+    //     rating: '4.9',
+    //     users: '40K+'
+    //   },
+    //   links: {
+    //     demo: '#',
+    //     github: '#',
+    //     store: '#'
+    //   },
+    //   featured: true
+    // },
+    // {
+    //   title: 'WorkoutPro Android',
+    //   description: 'Comprehensive fitness app with workout plans, progress tracking, and social features.',
+    //   image: 'https://images.pexels.com/photos/4474052/pexels-photo-4474052.jpeg?auto=compress&cs=tinysrgb&w=600',
+    //   technologies: ['Kotlin', 'Jetpack Compose', 'Room', 'MVVM'],
+    //   metrics: {
+    //     downloads: '200K+',
+    //     rating: '4.7',
+    //     users: '120K+'
+    //   },
+    //   links: {
+    //     demo: '#',
+    //     github: '#',
+    //     store: '#'
+    //   },
+    //   featured: false
+    // },
+    // {
+    //   title: 'ShopSmart Flutter',
+    //   description: 'E-commerce platform with AR product visualization and personalized recommendations.',
+    //   image: 'https://images.pexels.com/photos/4968391/pexels-photo-4968391.jpeg?auto=compress&cs=tinysrgb&w=600',
+    //   technologies: ['Flutter', 'Dart', 'BLoC', 'AR Core'],
+    //   metrics: {
+    //     downloads: '150K+',
+    //     rating: '4.6',
+    //     users: '80K+'
+    //   },
+    //   links: {
+    //     demo: '#',
+    //     github: '#',
+    //     store: '#'
+    //   },
+    //   featured: false
+    // }
   ];
 
   return (
