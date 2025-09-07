@@ -16,20 +16,20 @@ const Skills = () => {
       title: 'Mobile Platforms',
       icon: <Smartphone className="h-8 w-8" />,
       skills: [
-        { name: 'iOS Development', level: 95, color: 'bg-blue-500' },
+       // { name: 'iOS Development', level: 95, color: 'bg-blue-500' },
         { name: 'Android Development', level: 90, color: 'bg-green-500' },
         { name: 'React Native', level: 92, color: 'bg-cyan-500' },
-        { name: 'Flutter', level: 88, color: 'bg-blue-400' }
+       // { name: 'Flutter', level: 88, color: 'bg-blue-400' }
       ]
     },
     {
       title: 'Programming Languages',
       icon: <Code2 className="h-8 w-8" />,
       skills: [
-        { name: 'Swift', level: 94, color: 'bg-orange-500' },
+        //{ name: 'Swift', level: 94, color: 'bg-orange-500' },
         { name: 'Kotlin', level: 89, color: 'bg-purple-500' },
         { name: 'JavaScript/TypeScript', level: 93, color: 'bg-yellow-500' },
-        { name: 'Dart', level: 87, color: 'bg-teal-500' }
+       // { name: 'Dart', level: 87, color: 'bg-teal-500' }
       ]
     },
     {
@@ -37,7 +37,7 @@ const Skills = () => {
       icon: <Cloud className="h-8 w-8" />,
       skills: [
         { name: 'Firebase', level: 91, color: 'bg-orange-400' },
-        { name: 'AWS', level: 86, color: 'bg-yellow-600' },
+       // { name: 'AWS', level: 86, color: 'bg-yellow-600' },
         { name: 'Node.js', level: 88, color: 'bg-green-600' },
         { name: 'GraphQL', level: 84, color: 'bg-pink-500' }
       ]
