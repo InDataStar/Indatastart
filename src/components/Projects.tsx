@@ -119,29 +119,6 @@ const Projects = () => {
                   ))}
                 </div>
 
-                <div className="grid grid-cols-3 gap-4 mb-6 py-4 border-t border-b border-gray-100">
-                  <div className="text-center">
-                    <div className="flex items-center justify-center mb-1">
-                      <Download className="h-4 w-4 text-gray-500 mr-1" />
-                      <span className="font-bold text-gray-900">{project.metrics.downloads}</span>
-                    </div>
-                    <div className="text-sm text-gray-500">Downloads</div>
-                  </div>
-                  <div className="text-center">
-                    <div className="flex items-center justify-center mb-1">
-                      <Star className="h-4 w-4 text-yellow-500 mr-1" />
-                      <span className="font-bold text-gray-900">{project.metrics.rating}</span>
-                    </div>
-                    <div className="text-sm text-gray-500">Rating</div>
-                  </div>
-                  <div className="text-center">
-                    <div className="flex items-center justify-center mb-1">
-                      <Users className="h-4 w-4 text-gray-500 mr-1" />
-                      <span className="font-bold text-gray-900">{project.metrics.users}</span>
-                    </div>
-                    <div className="text-sm text-gray-500">Active Users</div>
-                  </div>
-                </div>
 
                 <div className="flex items-center justify-between">
                   <div className="flex space-x-3">
