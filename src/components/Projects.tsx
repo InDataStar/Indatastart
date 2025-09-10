@@ -5,7 +5,7 @@ const Projects = () => {
   const projects = [
     {
       title: 'SeeGP',
-      description: 'A sustainability app helping users track their carbon footprint with real-time analytics and gamification features.',
+      description: 'SeeGP is a lightweight, high-impact mobile app designed to streamline primary care access by connecting users to real-time GP availability in their vicinity',
       image: 'https://imgur.com/wVDO6NG.jpeg?auto=compress&cs=tinysrgb&w=600',
       technologies: ['React Native', 'TypeScript', 'Firebase', 'Redux'],
       metrics: {
