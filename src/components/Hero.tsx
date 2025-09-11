@@ -64,20 +64,35 @@ const Hero = () => {
             </a>
           </div>
 
-          <div className="flex items-center justify-center space-x-6">
-            <a href="https://github.com/InDataStar" className="group p-3 bg-white rounded-full shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-110">
-              <Github className="h-6 w-6 text-gray-700 group-hover:text-blue-600" />
-            </a>
-            <a href="https://www.linkedin.com/in/lachlan-crawford-8a36b8140/" className="group p-3 bg-white rounded-full shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-110">
-              <Linkedin className="h-6 w-6 text-gray-700 group-hover:text-blue-600" />
-            </a>
-          </div>
-<a
-  href="#contact"
-  className="group inline-flex items-center gap-2 px-6 py-3 bg-gradient-to-r from-blue-600 to-teal-500 text-white text-sm font-semibold rounded-full shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105"
->
-  <span>✉️</span> Get in touch
-</a>
+<div className="flex flex-col md:flex-row items-center justify-center gap-6">
+  {/* Social Icons */}
+  <div className="flex items-center justify-center gap-4">
+    <a
+      href="https://github.com/InDataStar"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="group p-3 bg-white rounded-full shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-110"
+    >
+      <Github className="h-6 w-6 text-gray-700 group-hover:text-blue-600" />
+    </a>
+    <a
+      href="https://www.linkedin.com/in/lachlan-crawford-8a36b8140/"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="group p-3 bg-white rounded-full shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-110"
+    >
+      <Linkedin className="h-6 w-6 text-gray-700 group-hover:text-blue-600" />
+    </a>
+  </div>
+
+  {/* Contact Button */}
+  <a
+    href="#contact"
+    className="group inline-flex items-center gap-2 px-6 py-3 bg-gradient-to-r from-blue-600 to-teal-500 text-white text-sm font-semibold rounded-full shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105"
+  >
+    <span>✉️</span> Get in touch
+  </a>
+</div>
         </div>
       </div>
     </section>
