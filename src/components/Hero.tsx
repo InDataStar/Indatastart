@@ -3,13 +3,13 @@ import { Download, ExternalLink, Github, Linkedin } from 'lucide-react';
 
 const Hero = () => {
   const [currentRole, setCurrentRole] = useState(0);
-  const roles = [
+  enum roles = {
     'Mobile Developer',
     //'iOS Specialist',
     'Android Expert',
     'React Native Pro',
     //'Flutter Developer'
-  ];
+    };
 
   useEffect(() => {
     const interval = setInterval(() => {
