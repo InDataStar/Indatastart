@@ -69,8 +69,8 @@ const Contact = () => {
           
 
           {/* Contact Information */}
-          <div className="space-y-8">
-            <div className="bg-white rounded-3xl shadow-xl p-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+            <div className="bg-white rounded-3xl shadow-xl p-8 md:col-span-2 lg:col-span-1">
               <h3 className="text-2xl font-bold text-gray-900 mb-8">Get in Touch</h3>
               
               <div className="space-y-6">
@@ -92,7 +92,7 @@ const Contact = () => {
               </div>
             </div>
 
-            <div className="bg-gradient-to-r from-blue-600 to-teal-600 rounded-3xl p-8 text-white">
+            <div className="bg-gradient-to-r from-blue-600 to-teal-600 rounded-3xl p-8 text-white md:col-span-2 lg:col-span-1">
               <h3 className="text-2xl font-bold mb-6">Connect on Social</h3>
               <div className="flex space-x-4">
                 {socialLinks.map((social, index) => (
