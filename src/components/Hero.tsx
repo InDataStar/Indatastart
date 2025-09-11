@@ -36,7 +36,7 @@ const Hero = () => {
             </div>
             
             <h1 className="text-5xl md:text-7xl font-bold text-gray-900 mb-6">
-              Hi, I'm a{' '}
+              Hi, I'm Lachlan Crawford and I am an {' '}
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-teal-600 inline-block min-h-[1.2em]">
                 {roles[currentRole]}
               </span>
