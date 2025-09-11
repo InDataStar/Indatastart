@@ -72,7 +72,7 @@ const Hero = () => {
               <Linkedin className="h-6 w-6 text-gray-700 group-hover:text-blue-600" />
             </a>
           </div>
-                      <div className="className="group p-3 bg-white rounded-full shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-110"">
+                      <div className="group p-3 bg-white rounded-full shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-110">
               Get in touch
             </div>
         </div>
