@@ -30,14 +30,6 @@ const Contact = () => {
       link: 'mailto:crawfordlp1@gmail.com',
       color: 'from-blue-500 to-blue-600'
     }
-    ,
-    {
-      icon: <MapPin className="h-5 w-5" />,
-      label: 'Location',
-      value: 'Auckland, NZ',
-      link: '#',
-      color: 'from-green-500 to-green-600'
-    }
   ];
 
   const socialLinks = [
