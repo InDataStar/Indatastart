@@ -29,7 +29,8 @@ const Contact = () => {
       value: 'crawfordlp1@gmail.com',
       link: 'mailto:crawfordlp1@gmail.com',
       color: 'from-blue-500 to-blue-600'
-    },
+    }
+    ,
     {
       icon: <MapPin className="h-5 w-5" />,
       label: 'Location',
