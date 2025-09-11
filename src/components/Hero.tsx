@@ -31,9 +31,7 @@ const Hero = () => {
       <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-32">
         <div className="text-center">
           <div className="mb-8">
-            <div className="inline-flex items-center px-4 py-2 bg-blue-100 text-blue-800 rounded-full text-sm font-medium mb-6">
-              Available for new opportunities
-            </div>
+
             
             <h1 className="text-5xl md:text-7xl font-bold text-gray-900 mb-6">
               Hi, I'm Lachlan Crawford and I am
@@ -74,6 +72,9 @@ const Hero = () => {
               <Linkedin className="h-6 w-6 text-gray-700 group-hover:text-blue-600" />
             </a>
           </div>
+                      <div className="inline-flex items-center px-4 py-2 bg-blue-100 text-blue-800 rounded-full text-sm font-medium mb-6">
+              Available for new opportunities
+            </div>
         </div>
       </div>
     </section>
