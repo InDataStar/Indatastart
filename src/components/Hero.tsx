@@ -49,8 +49,13 @@ const Hero = () => {
           </div>
 
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-12">
-            <a className="group inline-flex items-center px-8 py-4 bg-gradient-to-r from-blue-600 to-teal-600 text-white font-semibold rounded-xl hover:from-blue-700 hover:to-teal-700 transition-all duration-300 transform hover:scale-105 hover:shadow-xl"
-              href="/files/Lachlan_Paul_Crawford_Resume.pdf">
+            <a 
+              className="group inline-flex items-center px-8 py-4 bg-gradient-to-r from-blue-600 to-teal-600 text-white font-semibold rounded-xl hover:from-blue-700 hover:to-teal-700 transition-all duration-300 transform hover:scale-105 hover:shadow-xl"
+              href="/files/Lachlan_Paul_Crawford_Resume.pdf"
+              download="Lachlan_Crawford_Resume.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <Download className="mr-2 h-5 w-5 group-hover:animate-bounce" />
               Download Resume
             </a>
