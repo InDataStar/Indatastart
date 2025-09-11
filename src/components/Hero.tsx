@@ -3,13 +3,13 @@ import { Download, ExternalLink, Github, Linkedin } from 'lucide-react';
 
 const Hero = () => {
   const [currentRole, setCurrentRole] = useState(0);
-  enum roles = {
+  const roles = [
+    'Android Expert',
     'Mobile Developer',
     //'iOS Specialist',
-    'Android Expert',
     'React Native Pro',
     //'Flutter Developer'
-    };
+  ];
 
   useEffect(() => {
     const interval = setInterval(() => {
@@ -36,9 +36,9 @@ const Hero = () => {
             </div>
             
             <h1 className="text-5xl md:text-7xl font-bold text-gray-900 mb-6">
-              Hi, I'm Lachlan Crawford and I am a {' '}
+              Hi, I'm Lachlan Crawford and I am
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-teal-600 inline-block min-h-[1.2em]">
-                {Object.Values(currentRole)}
+                { currentRole === 0 ? ' an '+ roles[currentRole]:' a '+ roles[currentRole]}
               </span>
             </h1>
             
