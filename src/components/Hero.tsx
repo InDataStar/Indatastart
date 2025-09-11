@@ -72,9 +72,12 @@ const Hero = () => {
               <Linkedin className="h-6 w-6 text-gray-700 group-hover:text-blue-600" />
             </a>
           </div>
-                      <div className="group p-3 bg-white rounded-full shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-110">
-              Get in touch
-            </div>
+<a
+  href="#contact"
+  className="group inline-flex items-center gap-2 px-6 py-3 bg-gradient-to-r from-blue-600 to-teal-500 text-white text-sm font-semibold rounded-full shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105"
+>
+  <span>✉️</span> Get in touch
+</a>
         </div>
       </div>
     </section>
