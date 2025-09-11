@@ -55,10 +55,10 @@ const Hero = () => {
               Download Resume
             </a>
             
-            <button className="group inline-flex items-center px-8 py-4 border-2 border-gray-300 text-gray-700 font-semibold rounded-xl hover:border-blue-600 hover:text-blue-600 transition-all duration-300 transform hover:scale-105">
+            <a className="group inline-flex items-center px-8 py-4 border-2 border-gray-300 text-gray-700 font-semibold rounded-xl hover:border-blue-600 hover:text-blue-600 transition-all duration-300 transform hover:scale-105" href="#projects">
               <ExternalLink className="mr-2 h-5 w-5 group-hover:rotate-12" />
               View Projects
-            </button>
+            </a>
           </div>
 
           <div className="flex items-center justify-center space-x-6">
